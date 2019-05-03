@@ -1,23 +1,15 @@
-# Tellocv tracker
-Tracking code for the Tello drone. It uses opencv and tellopy to identify a ball in the scene and then send commands to the drone.
-It is written in python3 and 
+# TelloCV Target Tracker
+This code provides a tracking algorithm for DJI-Tello. Targets are tracked in HSV color space. There is no learning involved in this project. Hardcoded for green balls for now, but the masks can be changed as per requirements.
 
-## Installation
-You need to have opencv installed and the following python modules for the tello and cv2:
-apt
+## Dependancies
+You need to have TelloPy and OpenCV installed in your system. You could either do a simple pip3 installation:
 
 ```
-sudo apt install sudo libopencv-dev python3-opencv
+sudo pip3 install imutils pynput opencv-python tellopy
 ```
+or compile from source if you want to use other features of the library. You could also compile `tellopy` from source like this:
 
-pip3:
 
-```
-sudo pip3 install imutils pynput
-```
-
-you need to build tellopy from source as the :
-Or install from the source code.
 ```
 git clone https://github.com/hanyazou/TelloPy
 cd TelloPy
@@ -25,21 +17,14 @@ python setup.py bdist_wheel
 pip install dist/tellopy-*.dev*.whl --upgrade
 ```
 
-# Flight rules
+# Flight Rules
 - Although tellos are very safe to operate, wear safety glasses as an added precaution
 - Do not fly over people
-- Memorize the controls *before* taking off
+- Memorize the controls *before* taking off. The controls are mentioned in the tracking codes.
 - Always be ready to land the drone (backspace)
 - If the program crashes restart it to regain control
-- if drone is going out of control just hit it and it will turn off.
+- If drone is going out of control just hit it and it will turn off.
 
-## Tello lights
 
-- flashing blue - charging
-- solid blue - charged
-- flashing purple - booting up
-- flashing yellow fast - wifi network set up, waiting for connection
-- flashing yellow - User connected
-
-## Recording a video
-hit r to record a video it is output to <home>/Pictures
+## Recording Videos
+Press `R` to toggle recording and press again to finish. The recorded videos and pictures are saved in  <home>/Pictures
