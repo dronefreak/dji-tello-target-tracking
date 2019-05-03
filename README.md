@@ -29,4 +29,7 @@ pip install dist/tellopy-*.dev*.whl --upgrade
 ## Recording Videos
 Press `R` to toggle recording and press again to finish. The recorded videos and pictures are saved in  <home>/Pictures
 
-![Tracking](1.png)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=RMD8G3Na71s"><img src="1.png" alt="Mask RCNN COCO Object detection and segmentation
+" width="550"></a>
+</div>
