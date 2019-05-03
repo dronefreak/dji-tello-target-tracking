@@ -28,3 +28,5 @@ pip install dist/tellopy-*.dev*.whl --upgrade
 
 ## Recording Videos
 Press `R` to toggle recording and press again to finish. The recorded videos and pictures are saved in  <home>/Pictures
+
+![Tracking](1.png)
