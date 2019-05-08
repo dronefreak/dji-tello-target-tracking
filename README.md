@@ -16,8 +16,14 @@ cd TelloPy
 python setup.py bdist_wheel
 pip install dist/tellopy-*.dev*.whl --upgrade
 ```
+## Usage
 
-# Flight Rules
+```
+python3 telloCV-for-tracking.py
+```
+Take-off the drone by pressing `TAB` and press `L` to begin tracking. Once done, press `BACKSPACE` to land.
+
+## Flight Rules
 - Although tellos are very safe to operate, wear safety glasses as an added precaution
 - Do not fly over people
 - Memorize the controls *before* taking off. The controls are mentioned in the tracking codes.
