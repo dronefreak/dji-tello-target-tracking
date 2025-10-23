@@ -1,0 +1,17 @@
+# Core dependencies for DJI Tello Target Tracking
+# Python 3.8+
+
+# Computer Vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0  # YOLOv8
+
+# Drone Control
+djitellopy>=2.5.0
+
+# Utilities
+Pillow>=10.0.0
