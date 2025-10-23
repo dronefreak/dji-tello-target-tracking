@@ -25,13 +25,6 @@ repos:
       - id: check-yaml
       - id: detect-private-key
 
-  - repo: https://github.com/timothycrosley/isort
-    rev: 5.12.0
-    hooks:
-      - id: isort
-        language_version: python
-        additional_dependencies: ["isort[colors]==5.12.0"]
-
   - repo: https://github.com/PyCQA/docformatter
     rev: v1.7.7
     hooks:
