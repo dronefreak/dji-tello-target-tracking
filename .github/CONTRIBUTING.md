@@ -88,7 +88,7 @@ Unsure where to begin? Look for issues labeled:
 
 ### Pull Requests
 
-We actively welcome your pull requests! Here's the process:
+I actively welcome your pull requests! Here's the process:
 
 1. Fork the repo and create your branch from `main`
 2. Make your changes
@@ -187,7 +187,7 @@ git push origin feature/your-feature-name
 
 ### Python Style Guide
 
-We follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) with some modifications:
+I follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) with some modifications:
 
 - **Line length**: 100 characters (not 79)
 - **Formatter**: Black
@@ -349,7 +349,7 @@ pytest -n auto
 
 ### Documentation Format
 
-We use Google-style docstrings:
+I use Google-style docstrings:
 
 ```python
 def track_target(self, target: Optional[TrackedObject]) -> None:
@@ -473,7 +473,7 @@ Contributors will be:
 
 ## Areas for Contribution
 
-We especially welcome contributions in:
+I especially welcome contributions in:
 
 - 🎯 **New Features**: Multi-drone coordination, SLAM, gesture control
 - 🐛 **Bug Fixes**: Any issues you encounter
@@ -485,6 +485,6 @@ We especially welcome contributions in:
 
 ## Questions?
 
-Don't hesitate to ask! Open a discussion or issue, and we'll help you get started.
+Don't hesitate to ask! Open a discussion or issue, and I'll help you get started.
 
 Thank you for contributing! 🚀
