@@ -46,6 +46,12 @@ python demo_drone.py
 git clone https://github.com/dronefreak/dji-tello-target-tracking.git
 cd dji-tello-target-tracking
 
+# Create the virtual environment
+python -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
 
