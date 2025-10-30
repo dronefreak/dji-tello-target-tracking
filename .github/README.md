@@ -1,8 +1,8 @@
 # DJI Tello Target Tracking
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![🐍 Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/downloads/)
+[![⚖️ License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green?logo=open-source-initiative&logoColor=white&style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
+[![🖤 Code style: Black](https://img.shields.io/badge/Code%20Style-Black-000000?logo=python&logoColor=white&style=for-the-badge)](https://github.com/psf/black)
 
 Real-time object detection and autonomous tracking for DJI Tello drones using PyTorch and YOLOv8. This modernized version replaces the old HSV color tracking with state-of-the-art deep learning models for robust, accurate object detection and tracking.
 
@@ -399,4 +399,5 @@ If you use this project in your research or work, please cite:
 
 ---
 
-**Star ⭐ this repo if you find it useful!**
+As always, Hare Krishna and Happy Tracking!
+**Please consider starring ⭐ this repo if you find it useful!**
