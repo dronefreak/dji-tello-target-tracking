@@ -103,7 +103,7 @@ I actively welcome your pull requests! Here's the process:
 
 ```bash
 # Fork the repository on GitHub, then clone your fork
-git clone https://github.com/YOUR_USERNAME/dji-tello-target-tracking.git
+git clone https://github.com/dronefreak/dji-tello-target-tracking.git
 cd dji-tello-target-tracking
 
 # Add upstream remote

@@ -65,7 +65,7 @@ High - Could allow arbitrary code execution on the host system
 Add input validation and use parameterized commands instead of
 string concatenation.
 
-**Contact:** [your-email@example.com]
+**Contact:** [kumaar324@gmail.com]
 ```
 
 ## Response Timeline
